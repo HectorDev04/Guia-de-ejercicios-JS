@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuentos en viajes turisticos</title>
+</head>
+
+<body>
+
+    <h1>Descuentos en viajes turisticos</h1>
+
+    <label for="ciudadOrigen">Elija el lugar de inicio del viaje:</label>
+    <select id="ciudadOrigen">
+        <option value="CIUDAD DE PALMA">CIUDAD DE PALMA</option>
+    </select>
+
+    <label for="ciudadDestino">Elija su lugar de destino:</label>
+    <select id="ciudadDestino">
+        <option value="COSTA DEL SOL">COSTA DEL SOL</option>
+        <option value="PANCHIMALCO">PANCHIMALCO</option>
+        <option value="PUERTO EL TRIUNFO">PUERTO EL TRIUNFO</option>
+    </select>
+
+    <button onclick="descViajes()">Calcular descuento</button>
+    <br><br>
+    <section id="resultado"></section>
+
+    <script src="./ejercicio6.js"></script>
+</body>
+
+</html>
